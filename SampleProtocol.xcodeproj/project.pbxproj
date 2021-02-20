@@ -15,6 +15,8 @@
 		B234377225DAEA08007F2C55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B234377025DAEA08007F2C55 /* LaunchScreen.storyboard */; };
 		B234377D25DAEA09007F2C55 /* SampleProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B234377C25DAEA09007F2C55 /* SampleProtocolTests.swift */; };
 		B234378825DAEA09007F2C55 /* SampleProtocolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B234378725DAEA09007F2C55 /* SampleProtocolUITests.swift */; };
+		B234379925DAEFD8007F2C55 /* SearchArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B234379825DAEFD8007F2C55 /* SearchArrayViewController.swift */; };
+		B234379E25DAF00F007F2C55 /* SearchArray.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B234379D25DAF00F007F2C55 /* SearchArray.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B234378325DAEA09007F2C55 /* SampleProtocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleProtocolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B234378725DAEA09007F2C55 /* SampleProtocolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleProtocolUITests.swift; sourceTree = "<group>"; };
 		B234378925DAEA09007F2C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B234379825DAEFD8007F2C55 /* SearchArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchArrayViewController.swift; sourceTree = "<group>"; };
+		B234379D25DAF00F007F2C55 /* SearchArray.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchArray.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				B234376725DAEA03007F2C55 /* SceneDelegate.swift */,
 				B234376925DAEA03007F2C55 /* ViewController.swift */,
 				B234376B25DAEA03007F2C55 /* Main.storyboard */,
+				B234379825DAEFD8007F2C55 /* SearchArrayViewController.swift */,
+				B234379D25DAF00F007F2C55 /* SearchArray.storyboard */,
 				B234376E25DAEA08007F2C55 /* Assets.xcassets */,
 				B234377025DAEA08007F2C55 /* LaunchScreen.storyboard */,
 				B234377325DAEA08007F2C55 /* Info.plist */,
@@ -233,6 +239,7 @@
 			files = (
 				B234377225DAEA08007F2C55 /* LaunchScreen.storyboard in Resources */,
 				B234376F25DAEA08007F2C55 /* Assets.xcassets in Resources */,
+				B234379E25DAF00F007F2C55 /* SearchArray.storyboard in Resources */,
 				B234376D25DAEA03007F2C55 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			files = (
 				B234376A25DAEA03007F2C55 /* ViewController.swift in Sources */,
 				B234376625DAEA03007F2C55 /* AppDelegate.swift in Sources */,
+				B234379925DAEFD8007F2C55 /* SearchArrayViewController.swift in Sources */,
 				B234376825DAEA03007F2C55 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
